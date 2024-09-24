@@ -28,6 +28,8 @@ some basic testing code that uses [jsverify](https://jsverify.github.io/) in
 In the lectures, we covered that insertion sort has best-case time complexity of
 $\Theta(n)$ and worst-case time complexity of $\Theta(n^2)$. What is the
 average-case time complexity ($\Theta$)?
+
+
   The average-case time complexity would be $\Theta(n^2)$. Since there is a nested loop, the best case scenerio would be $\Theta(n)$ because it does not need to enter the second loop, it will itterate through the array and will not need to do anything extra. In any other case than the best case, it would need to run through the inner loop. So in this situation that would mean that each loops complexity is $\Theta(n)$ and since there are two loops the case would be $\Theta(n^2)$.
   
 Hint: Think about what happens in each iteration of the loop, and how often the
